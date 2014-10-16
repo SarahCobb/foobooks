@@ -15,3 +15,19 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/practice', function() {
+
+    $fruit = Array('Apples', 'Oranges', 'Pears');
+
+    echo Pre::render($fruit,'Fruit');
+
+});
+
+Route::get('/child1', function() {
+	return View::make('child1');
+});
+
+Route::get('/child2', function() {
+	return View::make('child2');
+});

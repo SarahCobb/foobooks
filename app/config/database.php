@@ -44,6 +44,7 @@ return array(
 	|
 	*/
 
+
 	'connections' => array(
 
 		'sqlite' => array(
@@ -55,9 +56,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'database'  => 'foobooks',
+			'username'  => 'root',
+			'password'  => '4jwt3u94kW',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
